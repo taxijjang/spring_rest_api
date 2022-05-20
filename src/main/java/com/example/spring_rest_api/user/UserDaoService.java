@@ -1,9 +1,12 @@
 package com.example.spring_rest_api.user;
 
+import org.springframework.stereotype.Service;
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+@Service
 public class UserDaoService {
     private static List<User> users = new ArrayList<>();
 
@@ -25,7 +28,7 @@ public class UserDaoService {
         }
 
         users.add(user);
-        return user
+        return user;
     }
 
     public User findOne(int id) {
