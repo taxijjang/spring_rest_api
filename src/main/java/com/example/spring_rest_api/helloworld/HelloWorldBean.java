@@ -1,4 +1,4 @@
-package com.example.spring_rest_api;
+package com.example.spring_rest_api.helloworld;
 // lombok
 
 import lombok.AllArgsConstructor;
